@@ -1,0 +1,1 @@
+export const base_url= "https://wed-project-1.onrender.com";

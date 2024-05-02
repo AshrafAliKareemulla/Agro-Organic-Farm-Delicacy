@@ -1,0 +1,4 @@
+product_name,product_img,product_mrp,product_selling_price,quantity,offer,deliveryCharges,product_type,discription
+Chicken,https://i.ibb.co/Hh4CjDG/chicken.jpg,800,799,10,1,100,Dairy/Meat,This is Meat
+Clams,https://i.ibb.co/3v1T7gT/clams.jpg,2500,2440,15,1,200,Dairy/Meat,This is Meat
+Crab,https://i.ibb.co/Xjj3Qcp/crab.jpg,3500,3440,10,1,450,Dairy/Meat,This is Meat

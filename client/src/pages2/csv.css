@@ -1,0 +1,100 @@
+/* General Styles */
+.csv_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height:auto;
+   margin-top: 6.9rem;
+    /* Light grey background */
+    padding: 20px; /* Padding for overall container */
+    box-sizing: border-box;
+   
+    background-color: #FCFEF1;
+}
+
+.csv_container p {
+    color: #444; /* Dark text for better readability */
+    margin: 10px 0;
+    text-align: center; /* Centering text in paragraphs */
+    max-width: 1300px; /* Ensuring paragraphs are not too wide */
+    line-height: 1.6; /* Better line spacing for readability */
+}
+
+/* Animation for paragraphs */
+p[class$="_csv"] {
+    animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Styling for the image */
+.csvimg {
+    width: 100%; /* Adjust to full width of its container */
+    max-width: 600px; /* Maximum width */
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    border: 2px solid #3498db; /* Blue border */
+    transition: all 0.3s ease;
+}
+
+.csvimg:hover {
+    width: 100%; /* Adjust to full width of its container */
+    max-width: 1200px; /* Maximum width */
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Slightly stronger shadow on hover */
+    transform: scale(1.05); /* Slight scale-up on hover */
+}
+
+/* Form styling */
+.csv_form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    max-width: 500px;
+    text-align: center;
+    margin-bottom: 20px; /* Spacing at the bottom of the form */
+}
+
+.csv_form input[type="file"] {
+    border: 2px solid #ddd;
+    padding: 10px;
+    margin-bottom: 15px;
+    width: 100%; /* Full width */
+}
+
+.csv_submit {
+    background-color: #4CAF50; /* Green background */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%; /* Full width */
+}
+
+.csv_submit:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+.cc1 {
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center; /* Centering text */
+    color:  #66c32c; /* Grayish color for non-important information */
+    font-size: 1.5rem;
+}

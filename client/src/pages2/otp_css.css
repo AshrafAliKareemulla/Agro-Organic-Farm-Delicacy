@@ -1,0 +1,52 @@
+/* otp_css.css */
+
+.otp-container {
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  /* Rest of your existing styles */
+  
+  .otp-inputs {
+    display: flex;
+    justify-content: center;
+    /* gap: 10px; */
+    margin-top: 20px;
+  }
+  
+  .otp-input {
+    width: 140px;
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  .otp-input.filled {
+    border-color: #4caf50;
+  }
+  
+  .verify-btn {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .verify-btn:hover {
+    background-color: #45a049;
+  }
+  

@@ -1,0 +1,91 @@
+/* Add this CSS in your component or in a separate stylesheet */
+
+.main {
+    display: flex;
+  }
+  
+  .LeftSection {
+    width: 20%; /* Adjust the width according to your design */
+    padding: 20px; /* Add padding for better spacing */
+    background-color: #f0f0f0; /* Add background color if needed */
+  }
+  
+  .RightSection {
+    flex-grow: 1; /* Take up the remaining space in the flex container */
+    padding: 20px; /* Add padding for better spacing */
+    border-left: 1px solid #ccc; /* Add a border to separate LeftSection and RightSection */
+  }
+  
+  /* Style the table */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  /* Style the navigation menu in LeftSection */
+  .LeftSection ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .LeftSection li {
+    margin-bottom: 10px;
+  }
+  
+  .LeftSection a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .LeftSection a:hover {
+    color: #007bff;
+  }
+  /*! for returns  */
+  /* Add this CSS in your component or in a separate stylesheet */
+
+/* Add styles for the form container */
+.RightSection form {
+  max-width: 400px; /* Adjust the width according to your design */
+  margin-top: 20px;
+}
+
+/* Style form labels */
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+/* Style form inputs and select */
+input[type="number"],
+select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+/* Style the submit button */
+input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}

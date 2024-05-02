@@ -1,0 +1,221 @@
+
+/* Overall page styling */
+.body_user {
+  height: 100vh; /* 100% of the viewport height */
+  width: 100vw;
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #D9F0EA;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Container for both sidebar and user card */
+.container_web {
+  display: flex;
+  margin-left: 230px;
+ 
+  
+}
+
+/* User card styling */
+.user-card_web {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 800px; /* Fixed width */
+  max-width: 90%; /* Responsive max width */
+  padding: 30px;
+  /* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 5s ease infinite; */
+  background-color: #C9E3DC;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+  transition: transform 0.3s ease;
+ 
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+.user-card_web:hover {
+  transform: translateY(-10px);
+}
+
+/* Avatar styling */
+.user-avatar_web {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 4px solid #3498db;
+  margin-bottom: 25px;
+}
+
+/* User details styling */
+.user-details_web {
+  text-align: center;
+}
+
+.user-name_web {
+  font-size: 28px;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+
+.user-bio_web {
+  font-size: 18px;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+
+.user-location_web {
+  font-size: 16px;
+  color: #ffffff;
+}
+
+/* Animation for text */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.user-details_web h2,
+.user-details_web p {
+  animation: fadeIn 0.8s ease-out;
+}
+
+/* Sidebar styling */
+.sidebar_web {
+  width: 280px; /* Adjust as needed */
+  /* background-color:#118a7e; */
+  /* margin-top: rem; */
+  height: 100vh;
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+ background-color: #19507D;
+  /* margin-bottom: 6rem; */
+  
+}
+
+.hide-cart-button {
+  display: block;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+
+
+.user-details_web {
+  text-align: left; /* Align user details to the left */
+  color: #ffffff; /* Set text color to white */
+}
+
+
+
+.user-info-label {
+  font-weight: bold;
+  margin-right: 10px;
+  flex-grow: 1;
+  font-size: 1.3rem;
+  color: rgb(0, 0, 0);
+  font-weight: bolder; 
+  margin-left: 110px;
+}
+
+.user-info-data {
+  margin-left: 190px; /* Allow data to take remaining space */
+  text-align: left;
+  font-size: 1.3rem;
+  color: #3c97c1;
+  font-weight: bold; /* Align data to the right */
+  overflow: hidden !important;
+}
+
+/* Animation for text */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.user-details_web p {
+  animation: fadeIn 0.8s ease-out;
+}
+.Footer_user {
+  /* position: fixed; */
+  /* bottom: 0; */
+  width: 100%; /* To span the full width of the viewport */
+  text-align: center;
+  padding: 20px; /* Adjust padding as needed */
+  background-color: #baede3;
+  color: rgb(0, 0, 0);
+  font-size: 1.5rem;
+  font-weight: bolder;
+  /* margin-top: 2rem; */
+ /* margin-left: 15.5rem; */
+}
+
+  .verify-btn2  {
+  padding: 10px;
+  font-size: 16px;
+  /* background-color: #ff6347;  */
+  /* color: #fff; */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  background-color: #f65b5b;
+  /* margin-top: 8rem; */
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.verify-btn2:hover {
+  background-color: #ff4c35; /* Darker Coral color on hover */
+}
+.verify-btn3{
+  margin-top: 10rem;
+  margin-left: 1rem;
+
+}
+
+.user-info-data {
+  max-width: 200px; /* Adjust the maximum width as needed */
+  white-space: nowrap;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+}

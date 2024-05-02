@@ -1,0 +1,106 @@
+/* Styles for ProductStats component */
+
+.loading_pro {
+    font-size: 16px;
+    color: #333;
+    text-align: center;
+}
+
+.error_pro {
+    font-size: 16px;
+    color: #ff0000;
+}
+
+.main-content_pro {
+    margin-top: 20px;
+}
+
+.label_pro {
+    font-size: 16px;
+    margin-right: 10px;
+    margin-left: 300px;
+    color: black;
+}
+
+.select_pro {
+    font-size: 16px;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+}
+
+.userchat200 {
+    margin-top: 20px;
+    margin-right: 5rem;
+    height: 70vh !important;
+    
+}
+
+
+.table2{
+    margin-left: 22rem;
+    margin-right: 5rem;
+    border-radius: 1rem;
+    background-color: white;
+    color: black;
+    
+}
+.data-table_pro {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    
+}
+
+.data-table_pro th,
+.data-table_pro td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.data-table_pro th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+.quantity-control button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 0 2px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.data-table_pro th,
+.data-table_pro td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.data-table_pro .even-row {
+  background-color: #f2f2f2; /* Alternative color for even rows */
+}
+
+.data-table_pro .odd-row {
+  background-color: #ffffff; /* Default color for odd rows */
+}
+
+.quantity-control button:hover {
+    background-color: #45a049;
+}
+
+.container_pro2{
+    padding-top: 1rem;
+    color: white;
+    padding-bottom: 3rem;
+}

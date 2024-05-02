@@ -1,0 +1,96 @@
+.statement {
+    display: flex;
+    background-color: linear-gradient(to right, #3B9C8A 50%, #FFFFFF 50%);
+
+    border-radius: 20px;
+}
+
+.story {
+    display: flex;
+    background-color: linear-gradient(#3B9C8A 50%, #FFFFFF 50%);
+    border-radius: 20px;
+}
+.misson{
+    text-align: right;
+}
+.lefty1 {
+    text-align:justify;
+    flex: 2;
+    padding: 20px;
+}
+
+.righty1 {
+    flex: 1;
+    padding: 40px;
+    margin-left: 20em;
+    
+}
+
+.lefty {
+    
+    flex: 1;
+    padding: 20px;
+    
+}
+
+.righty {
+    text-align: justify;
+    flex: 1;
+    padding: 20px;
+}
+
+.evolution{
+    font-size: 20px;
+    background-color: #3B9C8A;
+    padding:3em;
+    text-align: center;
+    color:#FFFFFF;
+}
+
+.aha{
+    display:flex;
+    flex-direction: row;
+    gap:10em;
+    justify-content: center;
+    text-align: center;
+    color:#e8eb2c;
+    background-color: #262c2b;
+    padding:3em;
+}
+
+.whoweare{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:3em;
+    justify-content: center;
+    text-align: center;
+    color:#ffffff;
+    background-color: #262c2b;
+    padding:3em;
+}
+.profiletitl{
+    justify-content: center;
+    text-align: center;
+}
+
+.profimg {
+    top: 3;
+    left: 4;
+    border-bottom: 20px solid #167823;
+    border-right: 20px solid  #39b837;
+  }
+
+  .profimg2 {
+    top: 3;
+    left: 4;
+    border-bottom: 20px solid #167823;
+    border-right: 20px solid  #39b837;
+  }
+
+ 
+.para{
+    margin-left: 10rem;
+}
+.para2{
+    margin-right: 10rem;
+}

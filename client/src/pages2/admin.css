@@ -1,0 +1,613 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  /* background: url('https://img.freepik.com/free-photo/solid-navy-blue-concrete-textured-wall_53876-124584.jpg?size=626&ext=jpg&ga=GA1.1.1548618625.1698693237&semt=ais');
+  background-size: cover;
+  background-repeat: no-repeat; */
+}
+ .products_1,.Admins,.users,.users_5,.container_pro2{
+
+
+  /* background: url('https://img.freepik.com/free-photo/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner_1258-72293.jpg?size=626&ext=jpg&ga=GA1.1.1548618625.1698693237&semt=ais'); */
+  /* background: url('https://img.freepik.com/free-photo/green-light-green-blur-gradient-background_1258-83068.jpg');  */
+  background-color: #D9F0EA;
+  /* background: url('https://img.freepik.com/free-photo/solid-navy-blue-concrete-textured-wall_53876-124584.jpg?size=626&ext=jpg&ga=GA1.1.1548618625.1698693237&semt=ais'); */
+  /* background-size: cover;
+  background-repeat: no-repeat; */
+  margin-bottom: 3.5rem; 
+   padding-bottom: 3rem;
+ 
+ 
+  
+}
+.Reviews{
+   /* background: url('https://img.freepik.com/free-photo/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner_1258-72293.jpg?size=626&ext=jpg&ga=GA1.1.1548618625.1698693237&semt=ais'); */
+   /* background: url('https://img.freepik.com/free-photo/green-light-green-blur-gradient-background_1258-83068.jpg');  */
+   /* background: url('https://img.freepik.com/free-photo/solid-navy-blue-concrete-textured-wall_53876-124584.jpg?size=626&ext=jpg&ga=GA1.1.1548618625.1698693237&semt=ais'); */
+   /* background-size: cover;
+   background-repeat: no-repeat; */
+   background-color: #D9F0EA;
+   height: 100vh;
+}
+
+/* .users_5{
+  background: url('https://img.freepik.com/free-photo/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner_1258-72293.jpg?size=626&ext=jpg&ga=GA1.1.1548618625.1698693237&semt=ais');
+  background: url('https://wallpapercave.com/wp/wp2508260.jpg'); 
+  background: url('https://img.freepik.com/free-photo/solid-navy-blue-concrete-textured-wall_53876-124584.jpg?size=626&ext=jpg&ga=GA1.1.1548618625.1698693237&semt=ais');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 250vh;
+} */
+
+
+
+.sidebar_1 {
+  /* background-image: linear-gradient(to right, #868f96 0%, #596164 100%); */
+  background-color: #19507D;
+  color: #161313;
+  height: 100vh;
+  width: 250px;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.sidebar_1 h1 {
+  font-size: 35px;
+  margin-bottom: 20px;
+  color: #0b0a0a;
+}
+
+.sidebar_1 ul {
+  list-style: none;
+  padding: 24px;
+}
+
+.sidebar_1 ul li {
+  
+  margin-bottom: 20px;
+  /* background-color: #eedcdc; */
+  padding: 10px;
+  border-radius: 10px;
+}
+
+
+
+.sidebar_1 ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.sidebar_1 ul li a:hover {
+    border-bottom: 4px solid orange;
+    font-size: 20px;
+    color: #0b0a0a;
+    font-weight: bold;
+  }
+
+.content_15 {
+  margin-left: 250px;
+  padding: 20px;
+  display: flex;
+  
+  justify-content: space-around;
+}
+
+.card_151 {
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  padding: 15px;
+  width: 15rem;
+  margin-top: 0.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  background-color: #ded33c;
+}
+.card_151:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card_152 {
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  padding: 15px;
+  margin-top: 0.5rem;
+  width: 15rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  background-color: #da32ed;
+}
+.card_152:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card_154 {
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  padding: 15px;
+  width: 15rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-top: 0.5rem;
+  background-color: #00d8d8;
+}
+.card_153:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card_153 {
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  padding: 15px;
+  width: 15rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-top: 0.5rem;
+  background-color: #ec6111;
+}
+.card_153:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+/* ... (your existing CSS code) ... */
+
+.graph-container {
+  width: 60%;
+  margin-left: 250px auto;
+  margin-left: 2cm;
+  margin-bottom: 1cm;
+  
+}
+
+/* Style for the canvas element */
+.userchat2 {
+ 
+  margin-left: 35%;
+  margin-top: 4% !important;
+  height: 355px !important;
+  width: 900px !important;
+  background-color: #fff; /* Background color for the chart area */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.graph23{
+  margin-left: 19%;
+  margin-top: 3.5% !important;
+  height: 355px !important;
+  width: 700px !important;
+  background-color: #fff; /* Background color for the chart area */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 2px !important;
+}
+
+.userchat {
+ 
+  margin-left: 23%;
+  margin-top: 4%;
+  background-color: #fff; /* Background color for the chart area */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.userchat10 {
+  width: 77% !important;
+  margin-left: 23% !important;
+  margin-top: 3% !important;
+  background-color: #fff; /* Background color for the chart area */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+
+/* ... (your existing CSS code) ... */
+/* ... (your existing CSS code) ... */
+
+.user-cards {
+  display: grid;
+  margin-left: 7cm;
+  grid-template-columns: repeat(4, 1fr); /* Each row contains three cards */
+  gap: 15px;
+  margin-top: 20px;
+  justify-content: center; 
+  margin-right: 1rem;/* Center align the cards */
+}
+
+.user-card {
+  border: 1px solid #ccc;
+  background-color: #E7F7F0;
+  border-radius: 8px;
+  padding: 20px;
+  width: 18rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  /* box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;       */
+  margin: 10px; /* Add margin between cards */
+  flex: 1;
+}
+
+
+
+
+      /* Style for user details */
+      .user-details {
+          font-size: 16px;
+          margin: 10px 0;
+      }
+  
+
+
+      
+.search_1{
+    width: 50%;
+    padding: 6.5px;
+    margin-bottom: 20px;
+    margin-left: 8cm;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+.search_1:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  } 
+
+
+  .search_2{
+    width: 50%;
+    padding: 6.5px;
+    margin-bottom: 20px;
+    margin-left: 13cm;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+.search_2:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  } 
+
+.searchbar{
+    text-align: center;
+    color: rgb(231, 131, 30);
+    font-size: 3rem;
+    margin-left: 7cm;
+    padding: 24px;
+    margin-top: 0px;
+}
+
+
+.product_cards {
+  margin-left: 7cm;
+  
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 30px;
+  margin-top: 20px;
+  
+}
+
+.product-card {
+  border: 1px solid #ccc;
+  background-color: #E7F7F0;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  /* box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;       */
+  flex: 1;
+  /* width: 25rem; */
+}
+
+.product-card h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.product-details p {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+
+
+.feedback-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20px;
+  
+  margin-left: 7cm;
+}
+
+.feedback-card {
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px;
+  /* width: 250px; */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+  text-align: left;
+  width: 400px !important;
+}
+
+.feedback-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.feedback-card h2 {
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif; /* Example font-family */
+  font-style: italic; 
+}
+
+.feedback-date {
+  font-size: 15px;
+  color: #777;
+}
+.feedback-name {
+  font-size: 15px;
+  color: #777;
+  padding-left: 10rem;
+  font-family: 'Times New Roman', Times, serif; /* Example font-family */
+  font-style: italic; 
+}
+
+.Footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%; /* To span the full width of the viewport */
+  text-align: center;
+  padding-right: 300px !important; /* Adjust padding as needed */
+  background-image: url('https://img.freepik.com/free-photo/green-light-green-blur-gradient-background_1258-83068.jpg');
+  color: black !important;
+  font-size: 1.5rem;
+  margin-top: 2rem;
+ margin-left: 15.7rem;
+}
+
+
+
+/* .str{
+  padding: 4px;
+}
+.str1{
+  padding: 8px;
+}
+.str3{
+  padding: 6px;
+} */
+
+
+.btse{
+  padding: 4px;
+  font-size: 16px;
+  background-color: rgb(73, 208, 73);
+  color: black;
+  border-radius: 4px;
+
+}
+
+.btre{
+  padding: 4px;
+  font-size: 16px;
+
+  background-color: red;
+  color: black;
+  border-radius: 4px;
+  margin-left: 130px;
+}
+
+.countp{
+  float: right;
+  background-color: rgb(17, 110, 173);
+  border-radius: 50%;
+  padding-left: 4px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-right: 4px;
+  
+}
+
+.ic{
+font-size: 2rem;
+}
+
+
+.graph-container {
+  margin-top: 20px;
+}
+
+.userchat2 {
+  width: 100%;
+  max-width: 700px;
+  margin: auto;
+  margin-left: 10%;
+}
+
+.graph23 {
+  width: 100%;
+  max-width: 370px;
+  margin: auto;
+  height: 100%;
+  max-height: 400px;
+  margin-left: 9%;
+  
+}
+
+.Footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.graph-container{
+  display: flex;
+}
+
+
+
+
+
+/* admin.css */
+
+.users_5 {
+ 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+
+.user-cards_5 {
+  flex-grow: 1;
+  padding: 20px;
+  margin-left: 16rem;
+  /* margin-bottom: 2rem; */
+}
+
+/* admin.css */
+
+.user-table_5 {
+  width: 90%;
+  margin: 0 auto;
+  /* border-collapse: collapse; */
+  margin-top: 20px;
+  border-radius: 3px;
+}
+
+.user-table_5 th, .user-table_5 td {
+  border: 1px solid #000000;
+  padding: 12px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.user-table_5 th {
+  background-color: #fff8f8;
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+.user-table_5 td {
+  color: rgb(18, 16, 16);
+  border: 1px solid #000000;
+  padding: 12px;
+  text-align: center;
+  font-size: 14px;
+}
+
+/* Hover effect on table rows */
+.user-table_5 tbody tr:hover {
+  background-color: #f4f0f0;
+  /* color: #0b0a0a; */
+}
+
+/* Add borders to header and footer */
+.user-table_5 thead th {
+  border-bottom: 2px solid #222;
+}
+
+.user-table_5 tfoot th {
+  border-top: 2px solid #222;
+}
+
+/* Center the table header text */
+.user-table_5 th {
+  text-align: center;
+}
+.user-table_5 .even-row {
+  background-color: #f2f2f2; /* Alternative color for even rows */
+}
+
+.user-table_5 .odd-row {
+  background-color: #ffffff; /* Default color for odd rows */
+}
+
+
+
+
+
+/* Adjust margin and padding */
+.users {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+
+
+
+.status-dropdown_5,.filter-container {
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.error_5 {
+  color: red;
+}
+
+
+.sidebar_web ul {
+  list-style: none;
+  padding: 24px;
+}
+
+.sidebar_web ul li {
+  
+  margin-bottom: 20px;
+  /* background-color: #eedcdc; */
+  padding: 10px;
+  color: white;
+  /* border-radius: 10px; */
+}
+
+.sidebar_web ul li:hover {
+    
+    color: #000000;
+    /* background-color: #9febfa; */
+  
+    /* border-bottom: 4px solid orange; */
+    
+  }
+
+.sidebar_web ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #f0ecec;
+  font-weight: bold;
+}
+
+.sidebar_web ul li a:hover {
+    border-bottom: 4px solid orange;
+    font-size: 20px;
+    color: #0b0a0a;
+    font-weight: bold;
+  }

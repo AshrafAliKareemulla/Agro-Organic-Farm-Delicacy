@@ -1,0 +1,305 @@
+.body_cart {
+    font-family: Arial, sans-serif;
+    /* background-color: #f0f0f0; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin: 0;
+    background-color: #D9F0EA;
+  }
+  
+  .main-container_p {
+    width: 1000px;
+    height: auto;
+    /* background-color: #fff; */
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+    overflow: hidden;
+    /* border-radius: 10px; */
+    display: flex;
+    flex-direction: column;
+    /* margin: 2rem; */
+    margin-left: 20rem;
+    margin-top: 3rem;
+  }
+  
+  .table_1 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    background-color:rgb(149, 234, 223);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.5s ease-in-out;
+    transform-origin: top;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  
+  }
+  
+  .table_cart_p {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+
+  .table_cart_p th,
+  .table_cart_p td {
+    padding: 12px;
+    text-align: center;
+    border: 0px solid#93e4c1;
+    font-size: 1rem;
+    color: black;
+    /* color: rgb(80, 102, 247); */
+    /* font-weight: bold; */
+  }
+  .table_cart_p th {
+    background-color: rgb(66, 247, 223);
+    color: #090909;
+    font-size: 1rem;
+  }
+  
+  .content {
+    /* width: 890px; */
+    margin: 20px;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.5s ease-out;
+    border: 2px solid rgb(18, 18, 18);
+    /* padding: 8px; */
+    border-radius: 6px;
+    padding-left: 15px;
+    /* padding-bottom: 4px; */
+  
+  }
+  
+
+  
+  .content p {
+    margin: 0 0 15px;
+  }
+  
+  .address-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .address-list li {
+    margin-bottom: 8px;
+  }
+  
+  .address-list li:last-child {
+    margin-bottom: 0;
+  }
+  
+  .table img {
+    width: 50px;
+    height: 50px;
+    border-radius: 10%;
+    object-fit: cover;
+  }
+  
+  /* Add the following CSS for individual product hover effect */
+  
+  .table:hover {
+    /* background-color: #a3f26b; */
+    transform: scaleY(1);
+  }
+  
+  .table:hover + .content {
+    max-height: 200px;
+    transition: max-height 0.5s ease-in-out;
+  }
+  
+  .address-list_ww {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .address-list_ww li {
+    margin-bottom: 8px;
+  }
+  
+  .address-list_ww li:last-child {
+    margin-bottom: 0;
+  }
+  
+  .table img {
+    width: 50px;
+    height: 50px;
+    border-radius: 10%;
+    object-fit: cover;
+  }
+  
+  /* Add status-specific styling */
+  
+  .status_confirmed {
+    color: green;
+  }
+  
+  .status_shipped {
+    color: orange;
+  }
+  
+  .status_delivered {
+    color: blue;
+  }
+  
+  .status_rejected {
+    color: red;
+  }
+  
+  /* Add class-based styling for payment and address */
+  
+  .payment_ww {
+    color: #a3f26b;
+    font-weight: bold;
+  }
+  
+  .address_ww {
+    color: #27ae60;
+    font-weight: bold;
+  }
+  
+  
+  /* Add these styles to your profile_cart.css or create a new CSS file */
+  .filters_ww {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    border-radius: 8px;
+  }
+  
+  .label1 {
+    margin-left: 44rem;
+    font-size: 1.2rem;
+    margin-top: 6px;
+    /* padding: 8px; */
+  }
+  .search-bar_ww label{
+    font-size: 1.2rem;
+    margin-top: 6px;
+    margin-right: 12px;
+  }
+  .search-bar_ww {
+    margin-bottom: 20px;
+  }
+  
+  
+  .search-bar_ww input {
+    padding: 5px;
+    width: 400px;
+    border-radius: 8px;
+    /* Add any additional styles as needed */
+  }
+  
+  .Footer_user_cart {
+    /* position: fixed; */
+    /* bottom: 0; */
+    width: 100%; /* To span the full width of the viewport */
+    text-align: center;
+    padding: 10px; /* Adjust padding as needed */
+    background-color: #baede3;
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+    font-weight: bolder;
+    /* margin-top: auto; */
+    margin-top: 10.2rem;
+   /* margin-left: 15.5rem; */
+  }
+
+
+  .verify-btn2  {
+    padding: 10px;
+    font-size: 16px;
+    /* background-color: #ff6347;  */
+    /* color: #fff; */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    background-color: #f65b5b;
+    /* margin-top: 8rem; */
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.5rem;
+  }
+  
+  .verify-btn2:hover {
+    background-color: #ff4c35; /* Darker Coral color on hover */
+  }
+  .verify-btn3{
+    margin-top: 10rem;
+    margin-left: 1rem;
+  
+  }
+
+
+
+  /* Add the following styles to your existing stylesheet or create a new one */
+
+/* Style for the review items */
+.review-item_1 {
+  background-color: #f9f9f9;
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin-top: 10px; /* Add some margin between table rows and reviews */
+}
+
+/* Adjust height and other styles as needed */
+
+.review_box {
+  height: 150px; /* Set the height of the review section */
+  overflow-y: auto; /* Add a scrollbar if the content exceeds the height */
+}
+
+/* Add some spacing and styling to the review elements */
+.review-user_1 {
+  font-weight: bold;
+}
+
+.review-stars_1 {
+  margin-bottom: 5px;
+}
+
+.review-stars_1 span {
+  font-size: 18px;
+  color: #ffc107; /* Yellow color for stars */
+}
+
+.review-text_1 {
+  margin-bottom: 10px;
+}
+
+.date_add_review_1 {
+  margin-left: 850px;
+  color: #777;
+}
+/* Add this to your userprofileproduct.css file or your main stylesheet */
+
+/* Button styles */
+.review-button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+/* Button hover effect */
+.review-button:hover {
+  background-color: #45a049;
+}
+
+

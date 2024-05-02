@@ -1,0 +1,280 @@
+.body_cart {
+  font-family: Arial, sans-serif;
+  /* background-color: #f0f0f0; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  margin: 0;
+  background: url('https://img.freepik.com/free-photo/green-light-green-blur-gradient-background_1258-83068.jpg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.main-container {
+  width: 900px;
+  height: auto;
+  /* background-color: #fff; */
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+  overflow: hidden;
+  /* border-radius: 10px; */
+  display: flex;
+  flex-direction: column;
+  /* margin: 2rem; */
+  margin-left: 20rem;
+  margin-top: 3rem;
+}
+
+.table {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 10px;
+  background-color: rgb(149, 234, 223);
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  transition: background-color 0.3s ease, transform 0.5s ease-in-out;
+  transform-origin: top;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+.table_cart {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table_cart th,
+.table_cart td {
+  padding: 12px;
+  text-align: center;
+  border: 0px solid rgb(149, 234, 223);
+  font-size: 0.9rem;
+  color: black;
+  /* color: rgb(80, 102, 247); */
+  /* font-weight: bold; */
+}
+
+.table_cart th {
+  background-color: rgb(66, 247, 223);
+  color: #090909;
+  font-size: 0.9rem;
+}
+.table_cart td:hover{
+  border: 0px solid rgb(149, 234, 223);
+
+}
+
+
+.content {
+  /* width: 890px; */
+  margin: 20px;
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.5s ease-out;
+  border: 2px solid rgb(18, 18, 18);
+  /* padding: 8px; */
+  border-radius: 6px;
+  padding-left: 15px;
+  /* padding-bottom: 4px; */
+
+}
+
+.table:hover .table {
+  background-color: rgb(149, 234, 223) !important;
+  transform: scaleY(1);
+}
+
+.table:hover .content {
+  max-height: 200px;
+  transition: max-height 0.5s ease-in-out;
+  background-color: rgb(149, 234, 223) ;
+
+}
+
+.content p {
+  margin: 0 0 15px;
+}
+
+.address-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.address-list li {
+  margin-bottom: 8px;
+}
+
+.address-list li:last-child {
+  margin-bottom: 0;
+}
+
+.table img {
+  width: 50px;
+  height: 50px;
+  border-radius: 10%;
+  object-fit: cover;
+}
+
+/* Add the following CSS for individual product hover effect */
+
+.table:hover {
+  background-color: rgb(149, 234, 223);
+  transform: scaleY(1);
+}
+
+.table:hover + .content {
+  max-height: 200px;
+  
+  transition: max-height 0.5s ease-in-out;
+}
+
+.address-list_ww {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.address-list_ww li {
+  margin-bottom: 8px;
+}
+
+.address-list_ww li:last-child {
+  margin-bottom: 0;
+}
+
+.table img {
+  width: 50px;
+  height: 50px;
+  border-radius: 10%;
+  object-fit: cover;
+}
+
+/* Add status-specific styling */
+
+.status_confirmed {
+  color: green;
+  font-weight: bold;
+}
+
+.status_shipped {
+  color: orange;
+  font-weight: bold;
+
+  
+}
+
+.status_delivered {
+  color: blue;
+  font-weight: bold;
+
+}
+
+.status_rejected {
+  color: red;
+  font-weight: bold;
+
+}
+
+/* Add class-based styling for payment and address */
+
+.payment_ww {
+  color: #055413;
+  font-weight: bold;
+  font-variant: small-caps;
+}
+
+.address_ww {
+  color:#090909;
+  font-weight: bold;
+}
+
+
+/* Add these styles to your profile_cart.css or create a new CSS file */
+.filters_ww {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+.filters_ww label {
+  margin-left: 42rem;
+  font-size: 1.2rem;
+  margin-top: 6px;
+  /* padding: 8px; */
+}
+.search-bar_ww label{
+  font-size: 1.2rem;
+  margin-top: 6px;
+  margin-right: 12px;
+}
+.search-bar_ww {
+  margin-bottom: 20px;
+}
+
+
+.search-bar_ww input {
+  padding: 5px;
+  width: 400px;
+  border-radius: 8px;
+  /* Add any additional styles as needed */
+}
+
+.Footer_user_cart {
+  /* position: fixed; */
+  /* bottom: 0; */
+  width: 100%; /* To span the full width of the viewport */
+  text-align: center;
+  padding: 10px; /* Adjust padding as needed */
+  background-color: #baede3;
+  color: rgb(0, 0, 0);
+  font-size: 1.5rem;
+  font-weight: bolder;
+  /* margin-top: auto; */
+  margin-top: 10.2rem;
+ /* margin-left: 15.5rem; */
+}
+/* Add these styles to your existing stylesheet or create a new one */
+
+.content {
+  background-color: #f5f5f5; /* Set your desired background color */
+  /* padding: 20px; */
+  border: 1px solid #ddd; /* Add a border if needed */
+  border-radius: 8px; /* Add border radius for rounded corners */
+  margin-bottom: 20px; 
+}
+
+
+.verify-btn2  {
+  padding: 10px;
+  font-size: 16px;
+  /* background-color: #ff6347;  */
+  /* color: #fff; */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  background-color: #f65b5b;
+  /* margin-top: 8rem; */
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.verify-btn2:hover {
+  background-color: #ff4c35; /* Darker Coral color on hover */
+}
+.verify-btn3{
+  margin-top: 12rem;
+  margin-left: 1rem;
+
+}
+
+
+
